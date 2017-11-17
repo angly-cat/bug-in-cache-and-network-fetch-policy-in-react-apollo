@@ -5,7 +5,7 @@ import { schema } from "./schema";
 export const link = new ApolloLink(operation => {
   return new Observable(observer => {
     const { query, operationName, variables } = operation;
-    delay(300)
+    delay(3000)
       .then(() =>
         graphql(schema, print(query), null, null, variables, operationName)
       )
