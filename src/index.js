@@ -7,7 +7,7 @@ import { ApolloProvider } from "react-apollo";
 import { InMemoryCache } from "apollo-cache-inmemory";
 
 import { link } from "./graphql/link";
-import App from "./App";
+import Paginator from "./Paginator";
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
@@ -16,7 +16,7 @@ const client = new ApolloClient({
 
 render(
   <ApolloProvider client={client}>
-    <App />
+    <Paginator />
   </ApolloProvider>,
   document.getElementById("root")
 );

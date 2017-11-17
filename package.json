@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "apollo-client-error-template",
+  "name": "bug-in-cache-and-network-fetch-policy-in-react-apollo",
   "version": "0.1.0",
   "devDependencies": {
     "gh-pages": "^1.0.0",
@@ -10,6 +10,7 @@
     "apollo-cache-inmemory": "^1.0.0",
     "apollo-client": "^2.0.1",
     "apollo-link": "^1.0.0",
+    "deep-equal": "^1.0.1",
     "graphql": "^0.11.7",
     "graphql-tag": "^2.5.0",
     "react": "^16.0.0",
